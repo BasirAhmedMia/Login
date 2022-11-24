@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.form{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right,#7DE5ED,#852999);
+	padding-top: 100px;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.form-box{
+	background: white;
+	width: 500px;
+	margin: auto;
+	border-radius: 8px;
+}
+.heading h1{
+	text-align: center;
+	padding: 40px 0 20px;
+	font-weight: 800;
+}
+.form-item{
+	padding: 10px 102px 10px 81px;
+}
+.forgot-password a{
+	padding-left: 302px;
+	color: #000000bf;
+}
+.form-item-label{
+	display: block;
+	margin-bottom: 5px;
+}
+.name-box{
+	width: 93%;
+	padding: 12px 30px;
+	border: none;
+	border-bottom: 2px solid #8080804f;
+}
+.name{
+	position: relative;
+}
+.name i{
+	position: absolute;
+	color: #000000a3;
+	top: 48px;
+	left: 92px;
+}
+.form-item button{
+	width: 100%;
+    padding: 9px;
+    border-radius: 26px;
+    font-size: 18px;
+    background: linear-gradient(to right,#7DE5ED,#852999);
+    color: white;
+    border: none;
+}
+.sign-up-using{
+	text-align: center;
+	color: #000000a3;
+	margin: 20px 0 3px;
+}
+.form-item ul{
+	list-style: none;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.form-item ul li{
+	display: inline-block;
+}
+.facebook{
+	height: 38px;
+    width: 38px;
+    background: #3b3bf7;
+    border-radius: 100%;
+    line-height: 38px;
+    margin: 0 3px;
+}
+.facebook a{
+	color: white;
+}
+.twitter{
+	height: 38px;
+    width: 38px;
+    background: #439ff9;
+    color: white;
+    border-radius: 100%;
+    line-height: 38px;
+    margin: 0 3px;
+}
+.twitter a{
+	color: white;
+}
+.google{
+	height: 38px;
+    width: 38px;
+    background: #d1291d;
+    color: white;
+    border-radius: 100%;
+    line-height: 38px;
+    margin: 0 3px;
+}
+.google a{
+	color: white;
+}
+.sign-up{
+	text-align: center;
+}
+.sign-up a{
+	color: #000000e3;
+	font-weight: 500;
+}
